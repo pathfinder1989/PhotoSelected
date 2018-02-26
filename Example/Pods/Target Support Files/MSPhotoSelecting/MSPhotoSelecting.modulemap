@@ -1,0 +1,6 @@
+framework module MSPhotoSelecting {
+  umbrella header "MSPhotoSelecting-umbrella.h"
+
+  export *
+  module * { export * }
+}

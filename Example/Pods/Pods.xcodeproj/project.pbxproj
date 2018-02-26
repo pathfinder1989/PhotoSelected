@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E096EEAE69973D0BF4DBDAD988BA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1C9423081D945D2B212AD9A946F9A911 /* Pods-MSPhotoSelecting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1696AC13EB9BF5D3025332CE746607 /* Pods-MSPhotoSelecting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E836100610D3CF8487A2D10EEC003D /* MSPhotoSelecting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 413B12B6938DD25CF76FD35CDFB049A4 /* MSPhotoSelecting-dummy.m */; };
+		42B4C4CD7633FA80556AA4E884B5A98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		442AF45F4125AFE1EE61F9A8984D9387 /* Pods-MSPhotoSelecting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5373957EAB37822FACF7EB3AD251DEDE /* Pods-MSPhotoSelecting_Example-dummy.m */; };
+		46C6605C1062F0BEB9971281D078E6A8 /* MSPhotoSelecting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FB2D58297ED11DD27A7FAE6D68B2DE /* MSPhotoSelecting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901857DD35BA50C47A97B44F903F2244 /* Pods-MSPhotoSelecting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C88D53B5C544420DACD0BB0D9CADEECB /* Pods-MSPhotoSelecting_Tests-dummy.m */; };
+		C1C9B90C64FB628B6857EAE2A6B531CA /* Pods-MSPhotoSelecting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5141A9C05D6626001EBD1D442C8726 /* Pods-MSPhotoSelecting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEDBA08779791AD6DE576733990D90E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE5E8E58F8121A96E7C38B0DC61320B4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFB85DAD9FA3515889F39785464A424 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80D478C5AFF2D7B2CBB646B9FD0E03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F7F70D916B521CBA227D6FC1A7EE6D;
+			remoteInfo = MSPhotoSelecting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0465CD48A6671D4435878DD869B598B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BD247C21E6E71AD725BA5C063369CB /* Pods_MSPhotoSelecting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSPhotoSelecting_Example.framework; path = "Pods-MSPhotoSelecting_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD908C068EBE0C013B2F6FA0D666AEA /* Pods-MSPhotoSelecting_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPhotoSelecting_Example-resources.sh"; sourceTree = "<group>"; };
+		1B2D8D1FDC68BE10B4E4DAAEB6516D97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B787C17F4563975E95AAA2B43A24C98 /* Pods_MSPhotoSelecting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSPhotoSelecting_Tests.framework; path = "Pods-MSPhotoSelecting_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B84CEF10F95E34D6D3357FA93212AF8 /* Pods-MSPhotoSelecting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPhotoSelecting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		413B12B6938DD25CF76FD35CDFB049A4 /* MSPhotoSelecting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPhotoSelecting-dummy.m"; sourceTree = "<group>"; };
+		48FB2D58297ED11DD27A7FAE6D68B2DE /* MSPhotoSelecting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPhotoSelecting-umbrella.h"; sourceTree = "<group>"; };
+		5373957EAB37822FACF7EB3AD251DEDE /* Pods-MSPhotoSelecting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPhotoSelecting_Example-dummy.m"; sourceTree = "<group>"; };
+		58D07A632361207F8D2C2F8195457B14 /* Pods-MSPhotoSelecting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPhotoSelecting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65093EFCEC3E3C5F6B215892648DBE7A /* Pods-MSPhotoSelecting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MSPhotoSelecting_Tests.modulemap"; sourceTree = "<group>"; };
+		650DE1ABFC86B7797A02D519AD61FE08 /* Pods-MSPhotoSelecting_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPhotoSelecting_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D9DB9AC9E22995643A87F38671F9527 /* MSPhotoSelecting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPhotoSelecting.xcconfig; sourceTree = "<group>"; };
+		78C71C1C97746F3A687264E101129900 /* Pods-MSPhotoSelecting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPhotoSelecting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		842FF18CD0B956E1581DCEA19714E19E /* Pods-MSPhotoSelecting_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPhotoSelecting_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90CB625ABEC3E605317A4C2F9A5147DE /* Pods-MSPhotoSelecting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPhotoSelecting_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		921E4FF49AAE9CE5BB86061ABD2FDC38 /* Pods-MSPhotoSelecting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MSPhotoSelecting_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DC912317DEBE655291DAD2BCDCDA26 /* MSPhotoSelecting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MSPhotoSelecting.modulemap; sourceTree = "<group>"; };
+		9D1696AC13EB9BF5D3025332CE746607 /* Pods-MSPhotoSelecting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSPhotoSelecting_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A88EB01E82F57B1A610FA3971DDF7511 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFB85DAD9FA3515889F39785464A424 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MSPhotoSelecting/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C636538EAA9CACEC89BCDA1757C5D047 /* Pods-MSPhotoSelecting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPhotoSelecting_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C88D53B5C544420DACD0BB0D9CADEECB /* Pods-MSPhotoSelecting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPhotoSelecting_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC3174F3D756C426B9A35689DE6605B2 /* MSPhotoSelecting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSPhotoSelecting.framework; path = MSPhotoSelecting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5141A9C05D6626001EBD1D442C8726 /* Pods-MSPhotoSelecting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSPhotoSelecting_Example-umbrella.h"; sourceTree = "<group>"; };
+		D596DEF7CA0386854BD0C24F128452B5 /* Pods-MSPhotoSelecting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPhotoSelecting_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D17D48A68C74CED0AA207E56CA94E1 /* Pods-MSPhotoSelecting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPhotoSelecting_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E9E2A8BCAC07C2413537512224FCC7AD /* MSPhotoSelecting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPhotoSelecting-prefix.pch"; sourceTree = "<group>"; };
+		E9FA86DE09F41C70D15CF5CD56FA2D36 /* Pods-MSPhotoSelecting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPhotoSelecting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC9222DA2B7E0E8F8D2F48AF2A5159DD /* Pods-MSPhotoSelecting_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPhotoSelecting_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA8C70C1B6C40FD817E36AB3BD6B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E096EEAE69973D0BF4DBDAD988BA8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4591EBA2098896190193681C2675848A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B4C4CD7633FA80556AA4E884B5A98B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91BB2CD886D28911DF284A689A086AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDBA08779791AD6DE576733990D90E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B12AC0AD9D89E151BA877423986788C /* Pods-MSPhotoSelecting_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A88EB01E82F57B1A610FA3971DDF7511 /* Info.plist */,
+				921E4FF49AAE9CE5BB86061ABD2FDC38 /* Pods-MSPhotoSelecting_Example.modulemap */,
+				842FF18CD0B956E1581DCEA19714E19E /* Pods-MSPhotoSelecting_Example-acknowledgements.markdown */,
+				2B84CEF10F95E34D6D3357FA93212AF8 /* Pods-MSPhotoSelecting_Example-acknowledgements.plist */,
+				5373957EAB37822FACF7EB3AD251DEDE /* Pods-MSPhotoSelecting_Example-dummy.m */,
+				D8D17D48A68C74CED0AA207E56CA94E1 /* Pods-MSPhotoSelecting_Example-frameworks.sh */,
+				0AD908C068EBE0C013B2F6FA0D666AEA /* Pods-MSPhotoSelecting_Example-resources.sh */,
+				CF5141A9C05D6626001EBD1D442C8726 /* Pods-MSPhotoSelecting_Example-umbrella.h */,
+				D596DEF7CA0386854BD0C24F128452B5 /* Pods-MSPhotoSelecting_Example.debug.xcconfig */,
+				C636538EAA9CACEC89BCDA1757C5D047 /* Pods-MSPhotoSelecting_Example.release.xcconfig */,
+			);
+			name = "Pods-MSPhotoSelecting_Example";
+			path = "Target Support Files/Pods-MSPhotoSelecting_Example";
+			sourceTree = "<group>";
+		};
+		582099CB585708F881954E982FFCCE0A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				591B1778A4D80723FB6D31A9085452D5 /* MSPhotoSelecting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		591B1778A4D80723FB6D31A9085452D5 /* MSPhotoSelecting */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB85DAD9FA3515889F39785464A424 /* ReplaceMe.m */,
+				D813C3ED23B5F761993665CC8B72E3A2 /* Support Files */,
+			);
+			name = MSPhotoSelecting;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		713559EACE7F4276BB5822A68229BE67 /* Pods-MSPhotoSelecting_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B2D8D1FDC68BE10B4E4DAAEB6516D97 /* Info.plist */,
+				65093EFCEC3E3C5F6B215892648DBE7A /* Pods-MSPhotoSelecting_Tests.modulemap */,
+				E9FA86DE09F41C70D15CF5CD56FA2D36 /* Pods-MSPhotoSelecting_Tests-acknowledgements.markdown */,
+				58D07A632361207F8D2C2F8195457B14 /* Pods-MSPhotoSelecting_Tests-acknowledgements.plist */,
+				C88D53B5C544420DACD0BB0D9CADEECB /* Pods-MSPhotoSelecting_Tests-dummy.m */,
+				FC9222DA2B7E0E8F8D2F48AF2A5159DD /* Pods-MSPhotoSelecting_Tests-frameworks.sh */,
+				650DE1ABFC86B7797A02D519AD61FE08 /* Pods-MSPhotoSelecting_Tests-resources.sh */,
+				9D1696AC13EB9BF5D3025332CE746607 /* Pods-MSPhotoSelecting_Tests-umbrella.h */,
+				78C71C1C97746F3A687264E101129900 /* Pods-MSPhotoSelecting_Tests.debug.xcconfig */,
+				90CB625ABEC3E605317A4C2F9A5147DE /* Pods-MSPhotoSelecting_Tests.release.xcconfig */,
+			);
+			name = "Pods-MSPhotoSelecting_Tests";
+			path = "Target Support Files/Pods-MSPhotoSelecting_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				582099CB585708F881954E982FFCCE0A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9234444436E5EAD2A6227F2F5FCB3DD6 /* Products */,
+				B2296B62A9C37EEB369FFE51A99A27B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9234444436E5EAD2A6227F2F5FCB3DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3174F3D756C426B9A35689DE6605B2 /* MSPhotoSelecting.framework */,
+				06BD247C21E6E71AD725BA5C063369CB /* Pods_MSPhotoSelecting_Example.framework */,
+				1B787C17F4563975E95AAA2B43A24C98 /* Pods_MSPhotoSelecting_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2296B62A9C37EEB369FFE51A99A27B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B12AC0AD9D89E151BA877423986788C /* Pods-MSPhotoSelecting_Example */,
+				713559EACE7F4276BB5822A68229BE67 /* Pods-MSPhotoSelecting_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D813C3ED23B5F761993665CC8B72E3A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0465CD48A6671D4435878DD869B598B0 /* Info.plist */,
+				96DC912317DEBE655291DAD2BCDCDA26 /* MSPhotoSelecting.modulemap */,
+				6D9DB9AC9E22995643A87F38671F9527 /* MSPhotoSelecting.xcconfig */,
+				413B12B6938DD25CF76FD35CDFB049A4 /* MSPhotoSelecting-dummy.m */,
+				E9E2A8BCAC07C2413537512224FCC7AD /* MSPhotoSelecting-prefix.pch */,
+				48FB2D58297ED11DD27A7FAE6D68B2DE /* MSPhotoSelecting-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSPhotoSelecting";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B8AD2A54EE141EA768C6F738C093577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C9B90C64FB628B6857EAE2A6B531CA /* Pods-MSPhotoSelecting_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D62F0D19C0D295FB449209EAC4396D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C6605C1062F0BEB9971281D078E6A8 /* MSPhotoSelecting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5CA4E42B9942ED80A5AE04D5D784B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9423081D945D2B212AD9A946F9A911 /* Pods-MSPhotoSelecting_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24F7F70D916B521CBA227D6FC1A7EE6D /* MSPhotoSelecting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83951D3F2903CF9619BCF56256D97B0 /* Build configuration list for PBXNativeTarget "MSPhotoSelecting" */;
+			buildPhases = (
+				CD1FB0A8860800F27A3E7917FF242C2C /* Sources */,
+				4591EBA2098896190193681C2675848A /* Frameworks */,
+				2D62F0D19C0D295FB449209EAC4396D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSPhotoSelecting;
+			productName = MSPhotoSelecting;
+			productReference = CC3174F3D756C426B9A35689DE6605B2 /* MSPhotoSelecting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		529A39CC096B3511AB9A2C26CDC78DFC /* Pods-MSPhotoSelecting_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38E9DDEBA71A1EB3D2C18CDC456A2B8 /* Build configuration list for PBXNativeTarget "Pods-MSPhotoSelecting_Example" */;
+			buildPhases = (
+				B60629621B827BE19C824BF54CA66F66 /* Sources */,
+				E91BB2CD886D28911DF284A689A086AC /* Frameworks */,
+				2B8AD2A54EE141EA768C6F738C093577 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E2E1954CAFECAF3BFE87D3BA7D60BC /* PBXTargetDependency */,
+			);
+			name = "Pods-MSPhotoSelecting_Example";
+			productName = "Pods-MSPhotoSelecting_Example";
+			productReference = 06BD247C21E6E71AD725BA5C063369CB /* Pods_MSPhotoSelecting_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		648E44800CFA4B4BFEAF4C568612C1A0 /* Pods-MSPhotoSelecting_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEBDECBA599EB5CBC1859F66E6468B6 /* Build configuration list for PBXNativeTarget "Pods-MSPhotoSelecting_Tests" */;
+			buildPhases = (
+				1CC7AB0A7B4EDB9225525FA6EBD49A60 /* Sources */,
+				2DA8C70C1B6C40FD817E36AB3BD6B7A2 /* Frameworks */,
+				6F5CA4E42B9942ED80A5AE04D5D784B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MSPhotoSelecting_Tests";
+			productName = "Pods-MSPhotoSelecting_Tests";
+			productReference = 1B787C17F4563975E95AAA2B43A24C98 /* Pods_MSPhotoSelecting_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9234444436E5EAD2A6227F2F5FCB3DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F7F70D916B521CBA227D6FC1A7EE6D /* MSPhotoSelecting */,
+				529A39CC096B3511AB9A2C26CDC78DFC /* Pods-MSPhotoSelecting_Example */,
+				648E44800CFA4B4BFEAF4C568612C1A0 /* Pods-MSPhotoSelecting_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC7AB0A7B4EDB9225525FA6EBD49A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901857DD35BA50C47A97B44F903F2244 /* Pods-MSPhotoSelecting_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60629621B827BE19C824BF54CA66F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442AF45F4125AFE1EE61F9A8984D9387 /* Pods-MSPhotoSelecting_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1FB0A8860800F27A3E7917FF242C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E836100610D3CF8487A2D10EEC003D /* MSPhotoSelecting-dummy.m in Sources */,
+				DE5E8E58F8121A96E7C38B0DC61320B4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1E2E1954CAFECAF3BFE87D3BA7D60BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSPhotoSelecting;
+			target = 24F7F70D916B521CBA227D6FC1A7EE6D /* MSPhotoSelecting */;
+			targetProxy = F80D478C5AFF2D7B2CBB646B9FD0E03D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF7AC651A617238E2E25BBC76B09E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CB625ABEC3E605317A4C2F9A5147DE /* Pods-MSPhotoSelecting_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MSPhotoSelecting_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSPhotoSelecting_Tests/Pods-MSPhotoSelecting_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MSPhotoSelecting_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E74569746228820AB288D27B42DD9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C71C1C97746F3A687264E101129900 /* Pods-MSPhotoSelecting_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MSPhotoSelecting_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSPhotoSelecting_Tests/Pods-MSPhotoSelecting_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MSPhotoSelecting_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34003577C2EF4697CBAF3005546D65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9DB9AC9E22995643A87F38671F9527 /* MSPhotoSelecting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSPhotoSelecting/MSPhotoSelecting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSPhotoSelecting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSPhotoSelecting/MSPhotoSelecting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MSPhotoSelecting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86AA5C4B981FF5F5032AB2C5EA1BFC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C636538EAA9CACEC89BCDA1757C5D047 /* Pods-MSPhotoSelecting_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MSPhotoSelecting_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSPhotoSelecting_Example/Pods-MSPhotoSelecting_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MSPhotoSelecting_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE808B630C961A95ED8380F5BD2C1A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9DB9AC9E22995643A87F38671F9527 /* MSPhotoSelecting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSPhotoSelecting/MSPhotoSelecting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSPhotoSelecting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSPhotoSelecting/MSPhotoSelecting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MSPhotoSelecting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC22BCCCB63F514BA41BA322C2DAD4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D596DEF7CA0386854BD0C24F128452B5 /* Pods-MSPhotoSelecting_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MSPhotoSelecting_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSPhotoSelecting_Example/Pods-MSPhotoSelecting_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MSPhotoSelecting_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEBDECBA599EB5CBC1859F66E6468B6 /* Build configuration list for PBXNativeTarget "Pods-MSPhotoSelecting_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E74569746228820AB288D27B42DD9F7 /* Debug */,
+				2CF7AC651A617238E2E25BBC76B09E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38E9DDEBA71A1EB3D2C18CDC456A2B8 /* Build configuration list for PBXNativeTarget "Pods-MSPhotoSelecting_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC22BCCCB63F514BA41BA322C2DAD4A0 /* Debug */,
+				86AA5C4B981FF5F5032AB2C5EA1BFC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83951D3F2903CF9619BCF56256D97B0 /* Build configuration list for PBXNativeTarget "MSPhotoSelecting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE808B630C961A95ED8380F5BD2C1A47 /* Debug */,
+				34003577C2EF4697CBAF3005546D65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

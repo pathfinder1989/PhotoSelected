@@ -1,0 +1,22 @@
+{
+  "name": "MSPhotoSelecting",
+  "version": "0.1.0",
+  "summary": "A short description of MSPhotoSelecting.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lala.kang1989@gmail.com/MSPhotoSelecting",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lala.kang1989@gmail.com": "lala.kang1989@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lala.kang1989@gmail.com/MSPhotoSelecting.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSPhotoSelecting/Classes/**/*"
+}
