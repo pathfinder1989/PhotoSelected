@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSPhotoSelecting_Example' do
+  pod 'MSPhotoSelecting', :path => '../'
+
+  target 'MSPhotoSelecting_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
